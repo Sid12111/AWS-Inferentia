@@ -2,11 +2,11 @@
 
 This project demonstrates **building custom deep learning container images optimized for AWS Inferentia instances** using Docker. The images provide faster and cost-efficient model inference.
 
-AWS Inferentia is a custom machine learning (ML) chip developed by Amazon Web Services specifically designed to accelerate deep learning inference workloads. In simpler terms, it’s hardware optimized to run trained neural network models faster and more cost-effectively than general-purpose CPUs or GPUs for certain types of models.
+**AWS Inferentia** is a custom machine learning (ML) chip developed by Amazon Web Services specifically designed to accelerate deep learning inference workloads. In simpler terms, it’s hardware optimized to run trained neural network models faster and more cost-effectively than general-purpose CPUs or GPUs for certain types of models.
 
 Here’s a detailed breakdown:
 
-Key Features of AWS Inferentia
+## Key Features of AWS Inferentia
 
 Purpose-built for ML inference
 
@@ -36,27 +36,20 @@ Cost efficiency
 
 Because Inferentia is optimized for inference, you can achieve similar or better performance than GPU instances at a fraction of the cost.
 
-How It Works
+## How It Works
 
 Train your model on CPU or GPU.
-
 Compile the model using the AWS Neuron SDK.
-
 Deploy the model on an Inf1 EC2 instance.
-
 The Inferentia chip executes the model efficiently and returns predictions faster than traditional hardware.
 
-Typical Use Cases
+## Typical Use Cases
 
-Real-time recommendation systems
-
-Image and video analysis (computer vision)
-
-Natural language processing (NLP) tasks
-
-Fraud detection or anomaly detection
-
-Voice recognition and translation
+- Real-time recommendation systems
+- Image and video analysis (computer vision)
+- Natural language processing (NLP) tasks
+- Fraud detection or anomaly detection
+- Voice recognition and translation
 ## Features
 
 - Custom Docker image for deep learning inference
